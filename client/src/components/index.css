@@ -1,0 +1,253 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.pad{
+  padding-top: 4rem;
+}
+.navbar
+{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  position: fixed;
+}
+li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+li a:hover{
+  background-color: rgb(0, 255, 34);
+  color:black;
+}
+.active {
+  background-color: #ff0000;
+}
+div.gallery {
+  margin-left: 2.3%;
+  margin-right: 2.3%;
+  border: 2px solid rgb(0, 0, 0);
+  float: left;
+  width: 25%;
+  border-radius: 8px;
+  padding:20px;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+div.gallery:hover {
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.8);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.enter{
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+.aform{
+  margin:auto;
+  padding-left: 36%;
+  padding-right: 30%;
+}
+.in{
+  font-size: 15px;
+  font-weight: 600;
+}
+.submit{
+  font-size: 15px;
+  background-color: rgb(42, 0, 70);
+  font-weight: 600;
+  padding:10px;
+  border-radius: 5px;
+  color:white;
+  border:2px solid white;
+}
+.submit:hover {
+  border: 4px solid rgb(0, 0, 0);
+  background-color: dodgerblue;
+}
+.space{
+  padding-top: 20px;
+  margin-top:320px;
+}
+.headerLogin
+{
+  font-size: 4.5em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: Comic Sans;
+  font-weight: 1000;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  padding-bottom: 0.5em;
+}
+.card {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.6);
+  transition: 0.3s;
+  width: 25%;
+  border-radius: 50px;
+  background-image: linear-gradient(to bottom right,white,white,dodgerblue);
+  padding:1.6em;
+  margin: auto;
+  font-size: 20px;
+}
+.card2{
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.6);
+  transition: 0.3s;
+  width: 65%;
+  border-radius: 50px;
+  padding:1em 1.6em 1 1.6em;
+  margin: auto;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.card2:hover {
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.8);
+  background-image: linear-gradient(to bottom right,white,white,white,dodgerblue);
+}
+.card:hover {
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.8);
+  background-image: linear-gradient(to bottom right,white,white,white,dodgerblue,dodgerblue);
+}
+.items{
+  margin:10px;
+}
+.loginsubmit
+{
+  font-size: 15px;
+  background-color: rgb(0, 47, 177);
+  font-weight: 600;
+  padding:10px;
+  border-radius: 8px;
+  color:white;
+  margin-top:10px;
+}
+.loginsubmit:hover{
+  background-color: white;
+  color:rgb(3, 31, 105);
+  padding:8px;
+  font-weight:1000;
+}
+
+.searchtext{
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+.bar{
+margin:0 auto;
+width:50%;
+border:2px solid #0c0a0a;
+}
+.bar:hover{
+box-shadow: 1px 1px 8px 1px #333333;
+}
+.bar:focus-within{
+box-shadow: 1px 1px 8px 1px #666666;
+outline:none;
+}
+.searchbar{
+padding-left: 20px;
+height:45px;
+border:none;
+width:500px;
+font-size:18px;
+outline: none; 
+}
+.voice{
+height:20px;
+position:relative;
+top:5px;
+left:10px;
+}
+.loginin{
+border-radius: 12px;
+height:24px;
+border:2px solid #0c0a0a;
+}
+.loginin:hover{
+box-shadow: 1px 1px 8px 1px #333333;
+outline:none;
+}
+.speed{
+background-color: deepskyblue;color: black;
+padding: 10px;float:left;
+width:30%;border:3px solid black;
+font-family: Arial, Helvetica, sans-serif;border-radius: 10px;
+}
+.speed2{
+background-color: tomato;color: black;
+padding: 10px;margin:auto;float:left;
+width:30%;border:3px solid black;
+font-family: Arial, Helvetica, sans-serif;border-radius: 10px;
+}
+.webkit{
+  -webkit-text-stroke: "2px rgb(0, 0, 0)";
+}
+.formpow{
+  margin-left: 60px;
+  margin-right: 60px
+}
+.formtag{
+  height:24px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.formsitem{
+  border: none;
+  padding: 5px 0 5px 5px;
+  border-bottom:3px solid red;
+  width:60%;
+  float:right;
+  font-size: 20px;
+  }
+.formsitem:hover{
+  border:none;
+    box-shadow: 0px 0px 8px 1px #333333;
+    outline:none;
+  }
+  .submitapplicant{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    margin:auto;
+    padding:10px;
+    border-radius: 30px;
+    margin-left: 40%;
+    padding-left: 80px;
+    padding-right:80px;
+    border:none;
+  }
+  .submitapplicant:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    
+  }
+
+
+
+
+
